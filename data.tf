@@ -9,3 +9,4 @@ data "aws_ssm_parameter" "master_password" {
 data "aws_ssm_parameter" "database_name" {
   name = "rds.${var.env}.database_name"
 }
+
